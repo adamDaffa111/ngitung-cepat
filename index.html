@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <title> ngitungCepat </title>
+</head>
+<body>
+  <nav>
+    <div class="logo"><h1> ngitungCepat </h1></div>
+    <div class="option-menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+      <div class="circle"></div>
+    </div>
+  </nav>
+  <section id="main">
+    <div class="buttons">
+      <a href="#" class="start"> mulai </a>
+      <a href="#" class="high-score"> skor tertinggi </a>
+    </div>
+  </section>
+  <div id="options-modal">
+    <ul class="options">
+      <li>
+        <p> waktu </p>
+        <select id="timeNumber">
+          <option value="2.50">2.30 menit</option>
+          <option value="5">5 menit</option>
+          <option value="10">10 menit</option>
+          <option value="15">15 menit</option>
+          <option value="30">30 menit</option>
+          <option value="60">60 menit</option>
+        </select>
+      </li>
+      <li>
+        <p> jumlah angka </p>
+        <select id="timeNumber" disabled>
+          <option value="50">50 angka</option>
+          <option value="100">100 angka</option>
+          <option value="300">300 angka</option>
+          <option value="500">500 angka</option>
+          <option value="1000">1000 angka</option>
+        </select>
+      </li>
+      <li>
+        <p> digit angka </p>
+        <select id="timeNumber" disabled>
+          <option value="1">1 digit</option>
+          <option value="2">2 digit</option>
+        </select>
+      </li>
+      <li>
+        <p> operasi hitung </p>
+        <select id="timeNumber" disabled>
+          <option value="+"> - </option>
+          <option value="-"> + </option>
+          <option value="×"> × </option>
+        </select>
+      </li>
+      <li>
+        <a href="#" id="saveBtn"> simpan </a>
+      </li>
+    </ul>
+  </div>
+  <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
